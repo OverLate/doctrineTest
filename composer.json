@@ -1,0 +1,21 @@
+{
+  "name": "vendor_name/doctrinetest",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Noam",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "doctrine/orm": "*",
+    "symfony/cache": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src"
+    }
+  }
+}
